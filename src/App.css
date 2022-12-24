@@ -1,0 +1,225 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+body{
+
+}
+body::-webkit-scrollbar {
+  display: none;
+
+}
+.body {
+display: flex;
+flex-direction: column;
+
+background: rgb(255, 255, 255);
+margin-top: 2%;
+overflow: hidden;
+vertical-align: middle;
+font-size: 115%;
+padding-left: 15%;
+padding-right: 15%;
+}
+@media only screen and (max-width: 600px){
+  .body{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+.user_modal{}
+.selectionArea{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  border:0px;
+  outline:0px;
+  height: 40px;
+}
+@media screen and (max-width: 600px){
+  .selectionArea{
+    flex-direction: column;
+    height: 200%;
+  }
+}
+
+.selectionArea h2{
+  padding: 10px;
+  transform: translate(0%,-11%);
+}
+
+.selectionArea select{
+  padding: 10px;
+
+}
+
+.NewsButton{
+  display: flex;
+  padding-top: 20px;
+}
+.buttonContainer{
+  display:flex;
+  justify-content: center;
+}
+.button{
+  border-radius: 50px;
+  background: #fafafa;
+  white-space: no-wrap;
+  padding: 10px 30px;
+  color: #004a47;
+  font-size: 1rem;
+  outline: none;
+  border-style: solid;
+  border-color: #004a47;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.button:hover{
+  transition: all ease-in-out;
+  background: #004a47;
+  color: #fff;
+}
+
+.button2{
+  border-radius: 50px;
+  background:#004a47;
+  white-space: no-wrap;
+  padding: 10px 30px;
+  margin: 5px;
+  color:white;
+  font-size: 1rem;
+  outline: none;
+  border-style: solid;
+  border-color: white;
+  transition: 0.3;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.button2:hover{
+  transition: all ease-in-out;
+    transition: 0.3;
+  background: #004a47;
+  color: #fff;
+  filter: brightness(150%);
+}
+
+.button3{
+  border-radius: 100px;
+  background:#004a47;
+  white-space: no-wrap;
+  padding: 4px 5px 1px 5px;
+  margin: 5px;
+  color:white;
+  font-size: 1rem;
+  outline: none;
+  border-style: solid;
+  border-color: white;
+  transition: 0.3;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.button3:hover{
+  transition: all ease-in-out;
+    transition: 0.3;
+  background: #004a47;
+
+  filter: brightness(150%);
+}
+
+.button4{
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background:#004a47;
+  white-space: no-wrap;
+  padding: 0px 5px 0px 10px;
+  color:white;
+  font-size: 1rem;
+  outline: none;
+  border-style: solid;
+  border-color: white;
+  transition: 0.4;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.button4:hover{
+  transition: all ease-in-out;
+    transition: 0.3;
+  background: #004a47;
+
+  filter: brightness(150%);
+}
+
+.button5{
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background: #eaeaea;
+  white-space: no-wrap;
+  padding: 0px 5px 0px 10px;
+  font-size: 1rem;
+  outline: none;
+  border-style: solid;
+  border-color: white;
+  transition: 0.4;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+}
+.button5:hover{
+  transition: all ease-in-out;
+    transition: 0.3;
+    background:#004a47;
+    color: white;
+}
+
+
+.modal_close_icon{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal_close_icon :hover{
+  color: #004a47;
+  transition: 0.2s;
+}
+
+.news{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardView{
+  padding: 0px;
+}
+.cardContent{
+  padding: 10px;
+}
+.cardContent p{
+  padding-top: 5px;
+  font-weight: bold;
+}
+.cardIndividual{
+  margin: 10px;
+  background-color: #eeeeee;
+  padding:
+}
+.cardRow{
+  display: flex;
+  padding-top: 5px;
+}
+@media only screen and (min-width: 600px){
+  .cardView{
+  display: none;
+  }
+}

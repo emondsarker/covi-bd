@@ -1,0 +1,273 @@
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-size: 1rem;
+}
+.login_wrapper_row{
+  padding: 10px;
+}
+
+.login_logo{
+  width: 15%;
+  min-width: 60px;
+}
+.login_logo2{
+  width: 70%;
+  min-width: 60px;
+}
+.login_logo3{
+  width: 70%;
+  min-width: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .login_logo2{
+    width: 50%;
+  }
+  .login_logo3{
+    width: 100%;
+  }
+}
+.login_wrapper{
+  width: 40%;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 350px;
+  max-height: 400px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #f24726;
+}
+.registration_deets{
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+}
+
+.form-group{
+  padding: 10px;
+  font-size: 1.3rem;
+}
+.form-group input{
+  border: none;
+  border-bottom: 2px solid #f24726;
+}
+.form-group ::placeHolder{
+
+
+}
+
+.error{
+  font-size: 0.8rem;
+  color: red;
+}
+
+
+.statusGrid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 1.2rem;
+
+}
+.welcome_user{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.welcome_user h4{
+  color: #f24726;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+  @media screen and (max-width: 600px){
+    .welcome_user{
+      display: block;
+      font-size: 130%;
+      padding-top: 5px;
+    }
+  }
+
+.admin_card{
+
+      background: #fff;
+      width: 100px;
+      height: 380px;
+      align-items: center;
+      border-bottom: solid;
+      border-color: grey;
+      border-color: grey;
+      display: flex;
+      flex-direction: column;
+}
+.statusContainer{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+
+}
+.statusGridCard{
+
+  margin: 10px;
+  background: #fff;
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  border-bottom: solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px){
+  .statusGridCard{
+    border:none;
+  }
+}
+.statusGridCard h5{
+  padding: 5px;
+}
+.statusGrid p{
+
+}
+.statusImage{
+  width: 140px;
+}
+.statusGridCard p{
+  font-size: 70%;
+  color: grey;
+}
+.statusGridCard a{
+  font-size: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 5px;
+  background: #ddd;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s;
+
+}
+.statusGridCard  a:hover{
+  font-size: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 5px;
+  background: #f24726;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  transition: 0.2s;
+}
+.statusLinks{
+
+  width: 150px;
+  justify-content: flex-end;
+}
+.statusDesc{
+  height: 150px;
+  max-height: 150px;
+}
+.sub_section_header{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.sub_section_header h3{
+  padding-top: 0.4em;
+}
+
+.update_header{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 120%;
+  align-items: center;
+  cursor: pointer;
+}
+.update_header p{
+  padding-right: 5px;
+}
+.information_container{
+  display: flex;
+  align-items: center;
+
+}
+.information{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 9px;
+}
+.information_title{
+  text-align: right;
+  padding-top: 9px;
+}
+.information p{
+  padding-top: 6px;
+  padding-bottom: 4px;
+  text-align: left;
+  font-size: 80%;
+}
+.information_title p{
+    font-weight: bold;
+    font-size: 80%;
+    text-align: right;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+
+.main_note{
+
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.note_form{
+  left: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.note_form input{
+  left: 10px;
+font-size: 80%;
+padding-top: 5px;
+}
+.note_form_2{
+  left: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.note_form_2 input{
+  left: 10px;
+font-size: 80%;
+padding-top: 2px;
+}
+.mainNoteTextArea{
+  border: none;
+  border-bottom: 2px solid #f24726;
+  margin-top: 3px;
+}
+
+.done{
+  background: #f24726;
+  color: white;
+  border-radius: 25px;
+}
+.done :hover{
+  filter: brightness(120%);
+
+}

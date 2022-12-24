@@ -1,0 +1,66 @@
+body {
+
+}
+x1{
+  color:#f24726;
+  font-size: 250%;
+  font-weight: bolder;
+  padding-bottom:10px;
+}
+
+.mission {
+display: flex;
+flex-direction: column;
+
+background: rgb(255, 255, 255);
+margin-top: 2%;
+overflow: hidden;
+vertical-align: middle;
+font-size: 115%;
+padding-left: 20%;
+padding-right: 20%;
+}
+
+
+
+.mission:hover{
+
+}
+
+
+.missionPic{
+margin-left:25%;
+margin-right: 25%;
+width:50%;
+height:50%;
+
+
+}
+@media only screen and (max-width: 600px) {
+  .missionPic{
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height: 150%;
+  }
+  .mission{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+.values{
+overflow: hidden;
+font-size: 115%;
+
+}
+
+.values:hover{
+
+}
+.about{
+margin-top: 5%;
+font-size: 115%;
+}
+.about:hover{
+width: 103%;
+}

@@ -1,0 +1,90 @@
+.heading{
+  color:#f24726;
+  font-size: 200%;
+  font-weight: bolder;
+  padding-bottom:30px;
+  padding-top: 30px;
+  text-align: center;
+}
+.searchbar {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+width: 200px;
+margin: auto;
+
+ /* width: 900px;
+ padding-right: 60px; */
+
+
+}
+.searchbar form{
+/* min-height: 300px;
+padding-right: 10px; */
+}
+#emergencytable {
+font-family: Monteserrat, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+z-index:11;
+}
+
+#emergencytable td, #emergencytable th {
+border: none;
+padding: 8px;
+text-align: center;
+font-size: 120%
+}
+
+#emergencytable tr:nth-child(even){background-color: #f2f2f2;}
+
+#emergencytable tr:hover {background-color: #ddd;}
+#emergencytable th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+font-weight: bold;
+font-size:150%;
+background-color:white;
+color:#f24726;
+
+}
+.cardView2{
+  padding: 0px;
+}
+.cardContent2{
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.cardContent2 p{
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+.cardIndividual2{
+  margin: 10px;
+  background-color: #eeeeee;
+  padding:
+}
+.cardRow2{
+  display: flex;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 22px;
+  justify-content: center;
+}
+.box {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.box .container-1 input{
+   width: 100%;
+}

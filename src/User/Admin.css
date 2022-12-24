@@ -1,0 +1,198 @@
+.center_modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+  font-size: 1rem;
+  min-width: 300px;
+  max-width: 300px;
+}
+.login_wrapper_row{
+  padding: 10px;
+  position: relative;
+}
+
+.login_logo{
+  width: 15%;
+  min-width: 60px;
+}
+.login_logo2{
+  width: 70%;
+  min-width: 60px;
+}
+.login_logo3{
+  width: 70%;
+  min-width: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .login_logo2{
+    width: 50%;
+  }
+  .login_logo3{
+    width: 100%;
+  }
+}
+.modal_wrapper{
+
+  padding-top: 4vh;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 200px;
+  max-height: 200px;
+}
+.registration_deets{
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+}
+
+.form-group{
+  padding: 10px;
+  font-size: 1.3rem;
+}
+.form-group input{
+  border: none;
+  border-bottom: 2px solid #f24726;
+}
+.form-group ::placeHolder{
+
+
+}
+
+.error{
+  font-size: 0.8rem;
+  color: red;
+}
+
+
+.statusGrid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 1.2rem;
+
+}
+.welcome_user{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.welcome_user h4{
+  color: #f24726;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+  @media screen and (max-width: 600px){
+    .welcome_user{
+      display: block;
+      font-size: 130%;
+      padding-top: 5px;
+    }
+  }
+.statusContainer{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+
+}
+.statusGridCard{
+
+  margin: 10px;
+  background: #fff;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  border-bottom: solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px){
+  .statusGridCard{
+    border:none;
+  }
+}
+.statusGridCard h5{
+  padding: 5px;
+}
+.statusGrid p{
+  text-align: center;
+}
+.statusImage{
+  width: 140px;
+}
+.statusGridCard p{
+  font-size: 70%;
+  color: grey;
+}
+.statusGridCard a{
+  font-size: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 5px;
+  background: #ddd;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s;
+
+}
+.statusGridCard  a:hover{
+  font-size: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 5px;
+  background: #f24726;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  transition: 0.2s;
+}
+.statusLinks{
+
+  width: 150px;
+  justify-content: flex-end;
+}
+.statusDesc{
+  height: 150px;
+  max-height: 150px;
+}
+.sub_section_header{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.sub_section_header h3{
+  padding-top: 0.4em;
+}
+.make_account{
+  position: absolute;
+  bottom: 40px;
+  left: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.make_account p{
+  font-size: 90%;
+}
+.make_account button{
+  font-size: 90%;
+  background: none;
+  border:none;
+  text-decoration: underline;
+  color: #f24726;
+
+}
+.make_account button:hover{
+  filter: brightness(130%);
+}

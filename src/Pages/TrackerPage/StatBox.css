@@ -1,0 +1,38 @@
+.statBox {
+    flex: 1;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 1rem;
+    border-radius: 20px;
+    /* margin-top: 16px; */
+    box-shadow: 0 0 15px -4px rgba(251, 88, 0, 0.5) ;
+
+  }
+  .statBox:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .statBox--selected {
+    border-top: 10px solid greenyellow ;
+  }
+
+  .statBox--red {
+    border-color: red ;
+  }
+
+  .statBox__cases--green {
+    color: lightgreen  !important;
+
+  }
+  .statBox__cases {
+    color: #cc1034  ;
+    font-weight: 600 ;
+    font-size: 1.75rem ;
+    margin-bottom: 0.5rem ;
+  }
+  .statBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
+  

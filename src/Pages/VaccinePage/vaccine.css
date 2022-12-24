@@ -1,0 +1,44 @@
+#hospital {
+font-family: Monteserrat, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+z-index:11;
+}
+
+#hospital td, #hospital th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+#hospital tr:nth-child(even){background-color: #f2f2f2;}
+
+#hospital tr:hover {background-color: #ddd;}
+#hospital th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+font-weight: bold;
+font-size:100%;
+background-color:#004a47;
+color: white;
+}
+
+.search_button{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+  #hospital{
+  display: none;
+  }
+}
+/*
+@media screen and (max-width: 768px){
+ padding-top: 40px;
+ padding-left: 0px;
+ font-weight: bolder;
+ text-align: center;
+ font-size:  200%;
+ /* transition: 0.8s all ease; */
